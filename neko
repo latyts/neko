@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require_relative 'Rakefile'
+
+system "#{NEKO_OUTPUT_BINARY_DIRECTORY}/neko #{ARGV.join(' ')}"
